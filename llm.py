@@ -58,11 +58,10 @@ nlp_cloud_key = "f17207e55bf7c65f8294e"
 
 
 def nlp_cloud_generate(user_prompt, selected_model):
-    client = nlpcloud.Client(selected_model, nlp_cloud_key, gpu=True, lang="en")
+    client = nlpcloud.Client(selected_model, nlp_cloud_key, gpu=True)
     result = client.generation(
         user_prompt,
-        min_length=0,
-        max_length=100,
+        max_length=50,
         length_no_input=True,
         remove_input=True,
         end_sequence=None,
@@ -70,14 +69,10 @@ def nlp_cloud_generate(user_prompt, selected_model):
         temperature=0.8,
         top_k=50,
         repetition_penalty=1,
-        length_penalty=1,
-        do_sample=True,
-        early_stopping=False,
         num_beams=1,
-        no_repeat_ngram_size=0,
         num_return_sequences=1,
         bad_words=None,
-        remove_end_sequence=False,
+        remove_end_sequence=False
     )
     return result["generated_text"]
 
