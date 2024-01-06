@@ -54,26 +54,24 @@ def openai_generate(user_prompt, selected_model):
 
 
 # nlpCloud Function
-nlp_cloud_key = "f17207e55bf7c65f8294e"
-
-
-def nlp_cloud_generate(user_prompt, selected_model):
-    client = nlpcloud.Client(selected_model, nlp_cloud_key, gpu=True)
+nlp_cloud_key = "use-your-own-API"
+def nlp_cloud_generate(user_prompt,selected_model):
+    client = nlpcloud.Client(selected_model, nlp_cloud_key, gpu=True, lang="en")
     result = client.generation(
-        user_prompt,
-        max_length=50,
-        length_no_input=True,
-        remove_input=True,
-        end_sequence=None,
-        top_p=1,
-        temperature=0.8,
-        top_k=50,
-        repetition_penalty=1,
-        num_beams=1,
-        num_return_sequences=1,
-        bad_words=None,
-        remove_end_sequence=False
-    )
+    user_prompt,
+    max_length=200,
+    length_no_input=True,
+    remove_input=True,
+    end_sequence=None,
+    top_p=1,
+    temperature=0.8,
+    top_k=50,
+    repetition_penalty=1,
+    num_beams=1,
+    num_return_sequences=1,
+    bad_words=None,
+    remove_end_sequence=False
+)
     return result["generated_text"]
 
 
