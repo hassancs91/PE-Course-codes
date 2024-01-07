@@ -62,7 +62,7 @@ def search_google(query, result_count):
     params = {
         "q": query,
         "tbm": "organic",
-        "api_key": "CB548B488B0740B08E3567D227B1C31F",
+        "api_key": "CB548B48867D227B1C31F",
         "num": result_count,
     }
 
