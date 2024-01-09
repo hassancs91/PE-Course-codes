@@ -114,7 +114,7 @@ def check_domain_authority(domain):
     querystring = {"url": domain}
 
     headers = {
-        "X-RapidAPI-Key": "a617d6467dmshac84323ce581a72p11caa9jsn1adf8bbcbd47",
+        "X-RapidAPI-Key": "a617d6467dmshac84328bbcbd47",
         "X-RapidAPI-Host": "domain-authority1.p.rapidapi.com",
     }
     response = requests.get(url, headers=headers, params=querystring)
