@@ -3,16 +3,17 @@ from selenium_stealth import stealth
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 import requests
 import json
 
 
 def search_google_web_automation(query):
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option("useAutomationExtension", False)
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option("useAutomationExtension", False)
+    driver = webdriver.Chrome(options=chrome_options)
 
     stealth(
         driver,
