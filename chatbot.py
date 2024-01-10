@@ -13,7 +13,7 @@ def continue_chat(user_message):
     messages.append({"role": "user", "content": user_message})
 
     # Get the chat response
-    response = openai.ChatCompletion.create(
+    response = openai.chat.completions.create(
         model="gpt-3.5-turbo",  # or gpt-4 if available
         messages=messages,  # the list of all messages
     )
