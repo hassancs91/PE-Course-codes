@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "sk-XXX"
+openai.api_key = "sk-XX"
 
 selected_model = "gpt-3.5-turbo"
 # Initialize the list of messages
@@ -19,10 +19,10 @@ def continue_chat(user_message):
     )
     # Add the AI's response to the list
     messages.append(
-        {"role": "assistant", "content": response.choices[0].message["content"]}
+        {"role": "assistant", "content": response.choices[0].message.content}
     )
 
-    return response.choices[0].message["content"]
+    return response.choices[0].message.content
 
 
 # Chat with the bot
