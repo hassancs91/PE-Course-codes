@@ -54,4 +54,20 @@ Or Simply Anyone Who Wants to Learn How AI Can Automate Workflows and Save Time 
 ## Course Link
 Dive deeper into the world of AI and Python automation by enrolling in our course if you haven'yet. Check it out here: [Prompt Engineering Course](https://learnwithhasan.com/prompt-engineering-course/)
 
+<!-- lwh-footer -->
 
+---
+
+## 📘 The free book
+
+This course goes deep on one topic. The book is the wider map, and it is free.
+
+**[Vibe Engineering Blocks](https://learnwithhasan.com/blocks/)** is my free 74-page book.
+47 building blocks for shipping real apps with AI. One block per page, each with the exact
+prompt to hand your AI.
+
+Built by **[Hasan Aboul Hasan](https://learnwithhasan.com)**. I build real products with AI and
+write down exactly how.
+[Guides](https://learnwithhasan.com/guides/) &nbsp;·&nbsp;
+[YouTube](https://www.youtube.com/@HasanAboulHasan) &nbsp;·&nbsp;
+[Community](https://learnwithhasan.com/community/)
