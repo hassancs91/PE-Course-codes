@@ -1,7 +1,7 @@
 # Become a Prompt Engineer: Go From Zero to Scripting AI Workflows!
  Welcome to the official GitHub repository for our comprehensive course"Become a Prompt Engineer: Go From Zero to Scripting AI Workflows!", This course will take you from zero to hero, with no prerequisites needed. Start by mastering the basics of prompt engineering, progress to Python scripting, and then learn to construct AI workflows with power prompts.
 
-Course Page: [Prompt Engineering Course](https://learnwithhasan.com/prompt-engineering-course/)
+Course Page: [Prompt Engineering Course](https://learnwithhasan.com/prompt-engineering-course/?utm_source=github&utm_medium=readme&utm_campaign=PE-Course-codes&utm_content=body)
 
 ## About the Scripts
 In this repository, you'll find a curated collection of Python scripts that are direct examples related to various sections of the course. These scripts serve as practical, hands-on learning tools, enabling you to see the concepts in action.
@@ -52,7 +52,7 @@ Or Simply Anyone Who Wants to Learn How AI Can Automate Workflows and Save Time 
 
 
 ## Course Link
-Dive deeper into the world of AI and Python automation by enrolling in our course if you haven'yet. Check it out here: [Prompt Engineering Course](https://learnwithhasan.com/prompt-engineering-course/)
+Dive deeper into the world of AI and Python automation by enrolling in our course if you haven'yet. Check it out here: [Prompt Engineering Course](https://learnwithhasan.com/prompt-engineering-course/?utm_source=github&utm_medium=readme&utm_campaign=PE-Course-codes&utm_content=body)
 
 <!-- lwh-footer -->
 
@@ -62,12 +62,12 @@ Dive deeper into the world of AI and Python automation by enrolling in our cours
 
 This course goes deep on one topic. The book is the wider map, and it is free.
 
-**[Vibe Engineering Blocks](https://learnwithhasan.com/blocks/)** is my free 74-page book.
+**[Vibe Engineering Blocks](https://learnwithhasan.com/blocks/?utm_source=github&utm_medium=readme&utm_campaign=PE-Course-codes&utm_content=footer)** is my free 74-page book.
 47 building blocks for shipping real apps with AI. One block per page, each with the exact
 prompt to hand your AI.
 
-Built by **[Hasan Aboul Hasan](https://learnwithhasan.com)**. I build real products with AI and
+Built by **[Hasan Aboul Hasan](https://learnwithhasan.com/?utm_source=github&utm_medium=readme&utm_campaign=PE-Course-codes&utm_content=footer)**. I build real products with AI and
 write down exactly how.
-[Guides](https://learnwithhasan.com/guides/) &nbsp;·&nbsp;
+[Guides](https://learnwithhasan.com/guides/?utm_source=github&utm_medium=readme&utm_campaign=PE-Course-codes&utm_content=footer) &nbsp;·&nbsp;
 [YouTube](https://www.youtube.com/@HasanAboulHasan) &nbsp;·&nbsp;
-[Community](https://learnwithhasan.com/community/)
+[Community](https://learnwithhasan.com/community/?utm_source=github&utm_medium=readme&utm_campaign=PE-Course-codes&utm_content=footer)
